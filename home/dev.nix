@@ -13,6 +13,7 @@
     awscli2
     terraform
     gh
+    gh-copilot
   ];
 
   programs.zsh.shellAliases = {

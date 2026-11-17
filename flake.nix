@@ -43,6 +43,10 @@
           modules = [ ./hosts/vm-bastion.nix ];
         };
 
+        "${username}@vm-wsl" = mkHome {
+          modules = [ ./hosts/vm-wsl.nix ];
+        };
+
         # ARM の VM を足す場合の例
         # "${username}@vm-arm" = mkHome {
         #   system = "aarch64-linux";

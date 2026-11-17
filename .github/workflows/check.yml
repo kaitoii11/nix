@@ -29,6 +29,7 @@ jobs:
         home:
           - kaito@vm-dev
           - kaito@vm-bastion
+          - kaito@vm-wsl
     steps:
       - uses: actions/checkout@v4
 
